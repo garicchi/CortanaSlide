@@ -1,0 +1,15 @@
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\bin\Debug\CortanaSlide.dll
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\bin\Debug\CortanaSlide.pdb
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\bin\Debug\CortanaSlide.dll.manifest
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\bin\Debug\CortanaSlide.vsto
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\bin\Debug\Microsoft.Office.Tools.Common.dll
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\bin\Debug\Microsoft.Office.Tools.dll
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\obj\Debug\CortanaSlide.csprojResolveAssemblyReference.cache
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\obj\Debug\CortanaSlide.MainRibbon.resources
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\obj\Debug\CortanaSlide.Properties.Resources.resources
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\obj\Debug\CortanaSlide.csproj.GenerateResource.Cache
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\obj\Debug\CortanaSlide.dll
+C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlide\obj\Debug\CortanaSlide.pdb
