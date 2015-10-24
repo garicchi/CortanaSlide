@@ -43,7 +43,17 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Accessibility" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="Microsoft.CSharp" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="mscorlib" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
     </dependentAssembly>
   </dependency>
   <dependency>
@@ -52,14 +62,54 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CortanaSlide.dll" size="18432">
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.DataSetExtensions" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Drawing" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Windows.Forms" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Xml" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Xml.Linq" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CortanaSlide.dll" size="19456">
       <assemblyIdentity name="CortanaSlide" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>c9dz0ofUSzhOA96d56dbOmJTc7MVqQm4NkNNFIpStqY=</dsig:DigestValue>
+        <dsig:DigestValue>UY4FVYwCSnDsmHVFqD7rxfkg06cSuSS6PUO6sn6nlPw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -148,4 +198,4 @@
       </vstov4:customizations>
     </vstav3:application>
   </vstav3:addIn>
-<publisherIdentity name="CN=GARIDUO\garic" issuerKeyHash="d312f6757086377446108eceea22e49458f9dbee" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uNvVC+li4gYBun07nI0NxPiz1Vp2mnFUZYXLIDln67U=</DigestValue></Reference></SignedInfo><SignatureValue>YW1rG/CBNA1D+puTC/DypL8+l04/jAVuc8bIjniRW901JDjt+/lQuqKtiA72frukyLAjkqvqj8SEhwZbiWFm3XipEpIRhCAS/1RA+a5HWCgLkWjOijpGDZtBEaAscKlmyik+RHxSAuaeU1smUd9gysqy6D8BobBBM7trA0Ggn6k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>szV+DHPikT/SCkeqRo8s/JZJCyvHEvMZUHrC/vbR+kHpXTFxw/vdQ7LeF7evWgeTwvp0VcqK0oVMw0MAx7t4pbevXNLHva5CAj9pqQLc57PteIXu+pJcfQ+JZzVOXNVp39lRIibg0/JVQ/98Y4Hu4M4BBX6dZH+pqPfzAkPlbi8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b5eb673920cb856554719a765ad5b3f8c40d8d9c3b7dba0106e262e90bd5dbb8" Description="" Url=""><as:assemblyIdentity name="CortanaSlide.dll" version="1.0.0.0" publicKeyToken="252452e0546519bb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GARIDUO\garic</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Z6J3MAP597S0I1PdqzMaaMN1gPSQPcU7oeGNXFs2gzs=</DigestValue></Reference></SignedInfo><SignatureValue>H/NDNHBGrVX4v1FroVOi1e/RITfvKnQxm6RTxpMUJKv9NmiSftdXJr36hoTbwNNqaR3k5hxK31VLTTETj3g8DCS9BHrIPDbj+jkbRc6CrcOWT9jlPThawpy6ot29rEnKXQvjjfUH8huSXl2EoMHc2BsgZFb+TEqYOMtJAXkelCI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>szV+DHPikT/SCkeqRo8s/JZJCyvHEvMZUHrC/vbR+kHpXTFxw/vdQ7LeF7evWgeTwvp0VcqK0oVMw0MAx7t4pbevXNLHva5CAj9pqQLc57PteIXu+pJcfQ+JZzVOXNVp39lRIibg0/JVQ/98Y4Hu4M4BBX6dZH+pqPfzAkPlbi8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQdyAgid7uVY5GY40eAZTBADANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoARwBBAFIASQBEAFUATwBcAGcAYQByAGkAYzAeFw0xNTA5MTUyMTE2MTdaFw0xNjA5MTUwMzE2MTdaMCUxIzAhBgNVBAMeGgBHAEEAUgBJAEQAVQBPAFwAZwBhAHIAaQBjMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzNX4Mc+KRP9IKR6pGjyz8lkkLK8cS8xlQesL+9tH6QeldMXHD+91Dst4Xt69aB5PC+nRVyorShUzDQwDHu3ilt69c0se9rkICP2mpAtzns+14he76klx9D4lnNU5c1Wnf2VEiJuDT8lVD/3xjge7gzgEFfp1kf6mo9/MCQ+VuLwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIxDeB2paYlfPOfY5szHgpxAHUrk+ZiwRTIWkVVY5rK3zhhqyz2ylvPPW3mH8T/4dMCbcsVVjHPR7Himi7kMF+cATqeio6oT2xt9hNThzEolJIod+KP6MAaPEYvNh54GmaCTthwfQUpUzctFHnpHEMCvPs0OLhk/Q2Ajnsi/TmOb</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=GARIDUO\garic" issuerKeyHash="d312f6757086377446108eceea22e49458f9dbee" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>54ySR72vU/Ye2XQNEVYOWXD7T+JOgqK9ULZZ1XZh4+g=</DigestValue></Reference></SignedInfo><SignatureValue>PycguFspjOzESdYsAh6gUp47ZJMHdpBF8KlX9VSZfaIgXSYr18VQEo8NUDL/xJDXFJpP3C1cF0D6gk6FGoCZIBrd8NNEG0E8G/Z87W+ubpogKZlMPpwD8f7IbM3dFrOmkJm74wc39xPDLFjBU8fRjnx8eYclPOQ8NZLcm37mFvo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>szV+DHPikT/SCkeqRo8s/JZJCyvHEvMZUHrC/vbR+kHpXTFxw/vdQ7LeF7evWgeTwvp0VcqK0oVMw0MAx7t4pbevXNLHva5CAj9pqQLc57PteIXu+pJcfQ+JZzVOXNVp39lRIibg0/JVQ/98Y4Hu4M4BBX6dZH+pqPfzAkPlbi8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e8e36176d559b650bda2824ee24ffb70590e56110d74d91ef653afbd47928ce7" Description="" Url=""><as:assemblyIdentity name="CortanaSlide.dll" version="1.0.0.0" publicKeyToken="252452e0546519bb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GARIDUO\garic</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>doyA+JTf46oVpi12N43bp6a0MckWX+SskmgixgSGrtg=</DigestValue></Reference></SignedInfo><SignatureValue>SLBLmlvjBOQ8jlhyCVOW1DBkVdsPZnhX/RK+ZJ9t5v104eUypQ84qxraaPPhEi4npE71OigeR+0gAj+nO4k9nAJJ0r8JqSb8GQMB6/94ty7bHyerVeXKNjgQlzHO+hyhtuxOkPCmICBF2Gk5vcrinMUU3pvygW+cRaRkVV72dS0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>szV+DHPikT/SCkeqRo8s/JZJCyvHEvMZUHrC/vbR+kHpXTFxw/vdQ7LeF7evWgeTwvp0VcqK0oVMw0MAx7t4pbevXNLHva5CAj9pqQLc57PteIXu+pJcfQ+JZzVOXNVp39lRIibg0/JVQ/98Y4Hu4M4BBX6dZH+pqPfzAkPlbi8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQdyAgid7uVY5GY40eAZTBADANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoARwBBAFIASQBEAFUATwBcAGcAYQByAGkAYzAeFw0xNTA5MTUyMTE2MTdaFw0xNjA5MTUwMzE2MTdaMCUxIzAhBgNVBAMeGgBHAEEAUgBJAEQAVQBPAFwAZwBhAHIAaQBjMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzNX4Mc+KRP9IKR6pGjyz8lkkLK8cS8xlQesL+9tH6QeldMXHD+91Dst4Xt69aB5PC+nRVyorShUzDQwDHu3ilt69c0se9rkICP2mpAtzns+14he76klx9D4lnNU5c1Wnf2VEiJuDT8lVD/3xjge7gzgEFfp1kf6mo9/MCQ+VuLwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIxDeB2paYlfPOfY5szHgpxAHUrk+ZiwRTIWkVVY5rK3zhhqyz2ylvPPW3mH8T/4dMCbcsVVjHPR7Himi7kMF+cATqeio6oT2xt9hNThzEolJIod+KP6MAaPEYvNh54GmaCTthwfQUpUzctFHnpHEMCvPs0OLhk/Q2Ajnsi/TmOb</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

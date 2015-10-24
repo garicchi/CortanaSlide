@@ -539,6 +539,3 @@ namespace CortanaSlideApp.CortanaSlideApp_XamlTypeInfo
 }
 
 
-
-
-

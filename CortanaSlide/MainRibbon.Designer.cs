@@ -37,15 +37,18 @@
             this.tab1 = this.Factory.CreateRibbonTab();
             this.groupSerial = this.Factory.CreateRibbonGroup();
             this.comboBoxIp = this.Factory.CreateRibbonComboBox();
+            this.buttonReflesh = this.Factory.CreateRibbonButton();
             this.buttonUpdate = this.Factory.CreateRibbonButton();
             this.group1 = this.Factory.CreateRibbonGroup();
             this.labelStatus = this.Factory.CreateRibbonLabel();
             this.buttonConnect = this.Factory.CreateRibbonButton();
             this.buttonClose = this.Factory.CreateRibbonButton();
-            this.buttonReflesh = this.Factory.CreateRibbonButton();
+            this.group2 = this.Factory.CreateRibbonGroup();
+            this._test = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.groupSerial.SuspendLayout();
             this.group1.SuspendLayout();
+            this.group2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tab1
@@ -53,6 +56,7 @@
             this.tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office;
             this.tab1.Groups.Add(this.groupSerial);
             this.tab1.Groups.Add(this.group1);
+            this.tab1.Groups.Add(this.group2);
             this.tab1.Label = "Cortana";
             this.tab1.Name = "tab1";
             // 
@@ -69,6 +73,12 @@
             this.comboBoxIp.Label = "Ip";
             this.comboBoxIp.Name = "comboBoxIp";
             this.comboBoxIp.Text = null;
+            // 
+            // buttonReflesh
+            // 
+            this.buttonReflesh.Label = "更新";
+            this.buttonReflesh.Name = "buttonReflesh";
+            this.buttonReflesh.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonReflesh_Click);
             // 
             // buttonUpdate
             // 
@@ -100,11 +110,17 @@
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonClose_Click);
             // 
-            // buttonReflesh
+            // group2
             // 
-            this.buttonReflesh.Label = "更新";
-            this.buttonReflesh.Name = "buttonReflesh";
-            this.buttonReflesh.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonReflesh_Click);
+            this.group2.Items.Add(this._test);
+            this.group2.Label = "group2";
+            this.group2.Name = "group2";
+            // 
+            // _test
+            // 
+            this._test.Label = "Test";
+            this._test.Name = "_test";
+            this._test.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this._test_Click);
             // 
             // MainRibbon
             // 
@@ -118,6 +134,8 @@
             this.groupSerial.PerformLayout();
             this.group1.ResumeLayout(false);
             this.group1.PerformLayout();
+            this.group2.ResumeLayout(false);
+            this.group2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -133,6 +151,8 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonClose;
         internal Microsoft.Office.Tools.Ribbon.RibbonComboBox comboBoxIp;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonReflesh;
+        internal Microsoft.Office.Tools.Ribbon.RibbonGroup group2;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton _test;
     }
 
     partial class ThisRibbonCollection

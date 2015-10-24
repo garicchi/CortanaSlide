@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
-  <CommandSet xml:lang="en-US">
-    <CommandPrefix>CortanaSlide</CommandPrefix>
-    <Example>Can I finish this talk ?</Example>
-
-
+  <CommandSet xml:lang="ja-JP">
+    <Example>Webサイト作ってください</Example>
+    
     <Command Name="voiceCommand1">
-      <Example>Can I finish this presentation ?</Example>
-      <ListenFor> [Can I finish] {msgText} </ListenFor>
-      <Feedback> Sure, I try to finish {msgText} </Feedback>
+      <Example>Webサイト作ってください</Example>
+      <ListenFor>[Web]サイト[作ってください]</ListenFor>
+      <Feedback>いやです</Feedback>
       <Navigate Target="SendPage.xaml"/>
     </Command>
 

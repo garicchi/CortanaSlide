@@ -52,8 +52,7 @@ namespace CortanaSlide
                     stream = client.GetStream();
                     byte[] buff = new byte[1];
                     var read = await stream.ReadAsync(buff, 0, buff.Length);
-                    ShowLastSlide();
-                    labelStatus.Label = "接続待機中";
+                    ExecuteCommand(buff[0]);
                 }
                 catch(Exception ex)
                 {
@@ -67,11 +66,24 @@ namespace CortanaSlide
 
         }
 
+        private void ExecuteCommand(byte data)
+        {
+            switch (data)
+            {
+                case 0:
+                    ShowLastSlide();
+                    break;
+                case 1:
+                    break;
+            }
+        }
+
         private void buttonClose_Click(object sender, RibbonControlEventArgs e)
         {
             listner.Stop();
             stream.Close();
             client.Close();
+            labelStatus.Label = "接続待機中";
         }
 
         private void buttonReflesh_Click(object sender, RibbonControlEventArgs e)
@@ -84,6 +96,13 @@ namespace CortanaSlide
                 item.Label = q.ToString();
                 comboBoxIp.Items.Add(item);
             });
+        }
+
+        private void _test_Click(object sender, RibbonControlEventArgs e)
+        {
+            string siteName = "testgariwebapp"+DateTime.Now.Hour+DateTime.Now.Minute;
+            string command = string.Format("azure site create --location 'Japan West' {0};[Console]::ReadKey($true)", siteName);
+            Process.Start("C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",string.Format("echo 'Run Command = {0}';",command)+command);
         }
     }
 }

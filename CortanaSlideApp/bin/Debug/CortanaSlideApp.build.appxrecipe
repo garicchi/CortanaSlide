@@ -1,66 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>GARIDUO</Machine>
-    <WindowsUser>garic</WindowsUser>
+    <Machine>DESKTOP-5LODG8T</Machine>
+    <WindowsUser>garicchi</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>d9aecec2-646e-4fc2-bb84-9be89b08d9ce</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\bin\Debug\CortanaSlideApp.exe">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\bin\Debug\CortanaSlideApp.exe">
       <PackagePath>CortanaSlideApp.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\Assets\Slide.xml">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\Assets\Slide.xml">
       <PackagePath>Assets\Slide.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\bin\Debug\CortanaSlideApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\bin\Debug\CortanaSlideApp.xr.xml">
       <PackagePath>CortanaSlideApp.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\bin\Debug\SendPage.xbf">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\bin\Debug\SendPage.xbf">
       <PackagePath>SendPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garic\Projects\Local\Office\CortanaSlide\CortanaSlideApp\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaSlideApp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
