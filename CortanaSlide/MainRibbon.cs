@@ -9,6 +9,7 @@ using System.IO.Ports;
 using System.Windows.Forms;
 using System.Net.Sockets;
 using System.Net;
+using System.Threading.Tasks;
 
 namespace CortanaSlide
 {
@@ -18,6 +19,7 @@ namespace CortanaSlide
         TcpListener listner;
         TcpClient client;
         NetworkStream stream;
+        int port = 5000;
 
         private void MainRibbon_Load(object sender, RibbonUIEventArgs e)
         {
@@ -40,12 +42,13 @@ namespace CortanaSlide
             if (!string.IsNullOrEmpty(comboBoxIp.Text))
             {
                 try {
+
                     if (listner != null)
                     {
                         listner.Stop();
                         listner = null;
                     }
-                    listner = new TcpListener(IPAddress.Parse(comboBoxIp.Text), 5000);
+                    listner = new TcpListener(IPAddress.Parse(comboBoxIp.Text),port);
                     listner.Start();
                     labelStatus.Label = "データ待機中";
                     client = await listner.AcceptTcpClientAsync();
@@ -53,6 +56,8 @@ namespace CortanaSlide
                     byte[] buff = new byte[1];
                     var read = await stream.ReadAsync(buff, 0, buff.Length);
                     ExecuteCommand(buff[0]);
+                    
+                    
                 }
                 catch(Exception ex)
                 {
@@ -74,6 +79,7 @@ namespace CortanaSlide
                     ShowLastSlide();
                     break;
                 case 1:
+                    StartProcess();
                     break;
             }
         }
@@ -100,9 +106,14 @@ namespace CortanaSlide
 
         private void _test_Click(object sender, RibbonControlEventArgs e)
         {
-            string siteName = "testgariwebapp"+DateTime.Now.Hour+DateTime.Now.Minute;
+            StartProcess();
+        }
+
+        private void StartProcess()
+        {
+            string siteName = "testgariwebapp" + DateTime.Now.Hour + DateTime.Now.Minute;
             string command = string.Format("azure site create --location 'Japan West' {0};[Console]::ReadKey($true)", siteName);
-            Process.Start("C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",string.Format("echo 'Run Command = {0}';",command)+command);
+            Process.Start("C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", string.Format("echo 'Run Command = {0}';", command) + command);
         }
     }
 }

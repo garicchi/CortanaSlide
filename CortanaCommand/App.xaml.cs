@@ -124,7 +124,7 @@ namespace CortanaCommand
                     Window.Current.Activate();
                 }
                 
-
+                
 
 
 

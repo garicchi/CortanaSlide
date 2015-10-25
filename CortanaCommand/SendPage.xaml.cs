@@ -43,6 +43,7 @@ namespace CortanaCommand
         /// このプロパティは、通常、ページを構成するために使用します。</param>
         protected async override void OnNavigatedTo(NavigationEventArgs e)
         {
+            
             var param = (int)e.Parameter;
             byte data = 0;
             switch (param)

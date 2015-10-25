@@ -36,6 +36,7 @@ namespace CortanaCommand
         public MainPage()
         {
             this.InitializeComponent();
+            
         }
 
         /// <summary>

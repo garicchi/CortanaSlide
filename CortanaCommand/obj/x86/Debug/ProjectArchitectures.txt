@@ -1,0 +1,1 @@
+C:\Users\garicchi\Projects\Repository\Windows\CortanaSlide\CortanaCommand\CortanaCommand.csproj;x86
